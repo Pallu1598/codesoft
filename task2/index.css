@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Lisu Bosa", serif;
+  text-align: center;
+}
+
+.section__subheader {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color:#0a0d14;
+  background-color: #14a460;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #07341f;
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color:#ffffff;
+  background-color: #0a0d14;
+}
+
+header {
+  background-image: linear-gradient(to top, #0a0d14, transparent),
+    url("bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav__bar {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.nav__logo a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  padding: 1.5rem 5px;
+  font-weight: 500;
+  color:#ffffff;
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: #14a460;
+  border-bottom: 2px solid #14a460;
+}
+
+.link span {
+  padding: 1rem 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.header__container {
+  padding: 12rem 1rem;
+}
+
+.header__container h1 {
+  margin-bottom: 1rem;
+  max-width: 700px;
+  font-size: 4rem;
+  font-family: "Lisu Bosa", serif;
+}
+
+.header__container h3 {
+  position: relative;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* about section */
+
+.about__container {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about__text {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+.about__images {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.about__images img {
+  width: calc(25% - 10px);
+}
+
+.section__subheader {
+  font-size: 1.2rem;
+  color: #333; 
+  margin-bottom: 2rem;
+}
+
+/* services section */
+.services__section {
+  background-image: linear-gradient(to top, transparent,#0a0d14), 
+  url("bg2.jpg"); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.services__container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.service__card {
+  flex: 0 1 calc(33.33% - 20px);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service__card img {
+  max-width: 60px;
+  margin:auto;
+}
+
+.service__card h3 {
+  font-size: 1.5rem;
+  color: #0a0d14;
+}
+
+.service__card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.btn-book {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #0a0d14;
+  background-color:#14a460 ;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-book:hover{
+  background-color: #07341f;
+}
+
+/* footer section */
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+.footer__social {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer__social a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5rem;
+}
+.footer__social a i {
+  font-size: 1.5rem;
+}
+
+.footer__copyright {
+  font-size: 0.9rem;
+}
